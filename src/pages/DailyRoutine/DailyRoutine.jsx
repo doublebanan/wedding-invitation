@@ -1,6 +1,6 @@
 import { motion } from "framer-motion";
-import Rings from "../../assets/png/Rings.png";
-import Cake from "../../assets/png/Cake.png";
+import Rings from "../../assets/png/Rings.webp";
+import Cake from "../../assets/png/Cake.webp";
 
 const DailyRoutine = () => {
     const events = [

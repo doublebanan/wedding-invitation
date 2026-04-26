@@ -13,9 +13,9 @@ import FadeIn from "./components/motion/FadeIn";
 
 import FloatingFlower from "./components/ui/FloatinngFlower";
 
-import PA from "./assets/png/PA.png";
-import HeroWe from "./assets/png/HeroWe.png";
-import Flower from "./assets/png/end.png";
+import PA from "./assets/png/PA.webp";
+import HeroWe from "./assets/png/HeroWe.webp";
+import Flower from "./assets/png/end.webp";
 
 import "./App.css";
 import Timer from "./pages/Timer/Timer";

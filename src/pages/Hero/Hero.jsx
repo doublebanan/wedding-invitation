@@ -1,7 +1,7 @@
 import { motion } from "framer-motion";
 import FloatingFlower from "../../components/ui/FloatinngFlower";
 
-import HeroWe from "../../assets/png/HeroWe.png";
+import HeroWe from "../../assets/png/HeroWe.webp";
 
 const Hero = () => {
     return (

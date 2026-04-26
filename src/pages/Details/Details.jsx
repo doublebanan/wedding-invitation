@@ -1,9 +1,9 @@
 import { motion } from "framer-motion";
 import HeartItem from "../../components/ui/HeartItem";
-import JustMarried from "../../assets/png/JustMarried.png";
+import JustMarried from "../../assets/png/JustMarried.webp";
 
 import SubmitButton from "../../components/ui/SubmitButton";
-import Dom from "../../../public/Dom.png";
+import Dom from "../../../public/Dom.webp";
 
 import FloatingFlower from "../../components/ui/FloatinngFlower";
 

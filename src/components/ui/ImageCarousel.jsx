@@ -141,6 +141,7 @@ const ImageCarousel = () => {
                         <img
                             src={extended[current]}
                             alt=""
+                            loading="lazy"
                             className="max-h-[90%] max-w-[90%] object-contain rounded-xl"
                         />
 

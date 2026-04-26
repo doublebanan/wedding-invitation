@@ -1,12 +1,12 @@
 import { motion } from "framer-motion";
 
-import Flower1 from "../../assets/flower/1.png";
-import Flower2 from "../../assets/flower/2.png";
-import Flower3 from "../../assets/flower/3.png";
-import Flower4 from "../../assets/flower/4.png";
-import Flower5 from "../../assets/flower/5.png";
-import Flower6 from "../../assets/flower/6.png";
-import Flower7 from "../../assets/flower/7.png";
+import Flower1 from "../../assets/flower/1.webp";
+import Flower2 from "../../assets/flower/2.webp";
+import Flower3 from "../../assets/flower/3.webp";
+import Flower4 from "../../assets/flower/4.webp";
+import Flower5 from "../../assets/flower/5.webp";
+import Flower6 from "../../assets/flower/6.webp";
+import Flower7 from "../../assets/flower/7.webp";
 
 const flowerImages = [
     Flower1,

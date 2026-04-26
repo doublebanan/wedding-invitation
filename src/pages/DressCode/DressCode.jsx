@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import FlowersIn from "../../assets/png/FlowersIn.png";
+import FlowersIn from "../../assets/png/FlowersIn.webp";
 import HeartIcon from "../../components/ui/HeartIcon";
 import ImageCarousel from "../../components/ui/ImageCarousel";
 
