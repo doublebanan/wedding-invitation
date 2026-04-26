@@ -100,6 +100,19 @@ const OpeningEnvelope = ({ onOpen, onStartMusic }) => {
                     </span>{" "}
                     откроется любовь
                 </motion.h1>
+                <motion.h1
+                    initial={{ opacity: 0, clipPath: "inset(0 100% 0 0)" }}
+                    whileInView={{ opacity: 1, clipPath: "inset(0 0% 0 0)" }}
+                    viewport={{ once: true }}
+                    transition={{
+                        duration: 1.8, // Чуть медленнее для благородства
+                        ease: "easeInOut",
+                        delay: 0.2,
+                    }}
+                    className="font-pecita text-white !text-[1rem] self-center leading-tight mt-25"
+                >
+                    08.08.26
+                </motion.h1>
             </div>
         </div>
     );

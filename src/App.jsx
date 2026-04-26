@@ -24,7 +24,6 @@ import OpeningEnvelope from "./pages/OpeningEnvelope/OpeningEnvelope";
 function App() {
     const [isOpen, setIsOpen] = useState(false);
 
-    // 🎵 подключили музыку
     const { audioRef, toggleMusic } = useMusic();
 
     const handleOpen = () => {
@@ -75,7 +74,7 @@ function App() {
                                 </div>
 
                                 <h3 className="mt-5 font-breathe text-pink text-[1.5rem] text-center">
-                                    08.08 <br />С нетерпением ждём встречи в
+                                    08.08. <br />С нетерпением ждём встречи в
                                     нашем летнем саду!
                                 </h3>
                             </div>

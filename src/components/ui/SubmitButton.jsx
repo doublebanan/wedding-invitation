@@ -1,3 +1,4 @@
+import { motion } from "framer-motion";
 const SubmitButton = ({ onClick, text = "ПОДТВЕРДИТЬ" }) => {
     return (
         // Родитель с relative, чтобы кольцо позиционировалось относительно него
@@ -22,16 +23,19 @@ const SubmitButton = ({ onClick, text = "ПОДТВЕРДИТЬ" }) => {
             >
                 {text}
             </button>
-
-            <span
-                className="
-          absolute top-1/2 left-1/2
-          -translate-x-1/2 -translate-y-1/2
-          rounded-full border-[10px] border-pink
-          animate-pulse-ring
-          pointer-events-none
-          z-0
-        "
+            <motion.span
+                className="absolute top-1/2 left-1/2 w-32 h-32 border-[10px] border-pink rounded-full pointer-events-none"
+                initial={{ scale: 0.6, opacity: 0, x: "-50%", y: "-50%" }} // Начинаем с 0
+                animate={{
+                    scale: 2.2, // Увеличил размах для эпичности
+                    opacity: [0, 0.6, 0], // Ключевые кадры: проявился и исчез
+                }}
+                transition={{
+                    duration: 3, // Чуть медленнее, чтобы было нежнее
+                    repeat: Infinity,
+                    ease: "linear", // Линейно, чтобы не было рывков в начале/конце
+                    times: [0, 0.2, 1], // Когда наступают моменты из массива opacity
+                }}
             />
         </div>
     );
